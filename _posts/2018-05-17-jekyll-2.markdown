@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  Notícia número um
-date:   2018-05-17 20:28:14 -0300
+title:  Notícia número tres
+date:   2018-05-18 20:28:14 -0300
 image: /img/noticias/noticia-01.png
 subtitle: texto para subtítulo da matéria será truncado com 10 palavras, viu?
 
 ---
-
 ![]({{ site.baseurl }}/img/noticias/noticia-01.png)

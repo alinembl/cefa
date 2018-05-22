@@ -1,0 +1,28 @@
+---
+layout: page
+---
+
+<div class="post">
+  <!-- Wrapper Start -->
+  <section id="intro" style="border: 1px dotted #ddd;">
+    <div class="container">
+      <div class="row">
+        <div>
+          <div class="block">
+            <h1 class="complete-title">{{ page.title }}</h1>
+            <div>
+              <p class="post-date">Escrito por <span class="bold">CEFA</span> em <span class="bold">{{ page.date | date: "%d de %b de %Y" }}</span></p>
+            </div>
+            <hr />
+            <div class="col-md-12">
+                <p>{{ content }}</p>
+            </div>
+          </div>
+        </div><!-- .col-md-7 close -->
+      </div>
+    </div>
+  </section>
+</div>
+<p class="center-text" style="padding: 30px;">
+  <a onclick="history.go(-1)">Voltar</a>
+</p>
