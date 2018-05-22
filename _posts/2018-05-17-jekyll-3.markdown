@@ -1,0 +1,19 @@
+---
+layout: post
+title:  Notícia número dois
+date:   2018-05-18 20:28:14 -0300
+image: /img/noticias/noticia-01.png
+subtitle: texto para subtítulo da matéria será truncado com 10 palavras, viu?
+
+---
+![]({{ site.baseurl }}/img/noticias/noticia-01.png)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nibh, suscipit vel volutpat eget, elementum id turpis. In sit amet neque ut massa gravida viverra. Nunc vestibulum luctus eros, vel lacinia dolor mollis a. Cras at vulputate justo, eget laoreet neque. Sed aliquam, ex vel venenatis venenatis, metus nulla imperdiet risus, faucibus volutpat quam sapien sed purus. Curabitur vel facilisis mauris. Duis faucibus erat odio, quis porta lorem mollis et.
+
+Nullam gravida purus non lorem molestie, quis iaculis ante accumsan. Nam tellus libero, gravida et placerat id, mattis sed tellus. Phasellus sit amet porttitor purus. Maecenas id facilisis nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer lacus massa, sodales id risus in, varius suscipit sapien. Nulla facilisi. Mauris accumsan tortor risus, porta congue lorem vestibulum vitae. Curabitur porttitor lacus in auctor semper. Vestibulum eget lobortis nisl. Praesent ligula nulla, eleifend in quam et, iaculis hendrerit massa. Donec nisi nunc, blandit nec massa at, posuere blandit nisl. Quisque tempor sagittis eros, a vulputate odio molestie nec. Quisque sit amet orci sed neque egestas condimentum viverra ut diam. Vivamus blandit sagittis lectus, pharetra viverra ante porttitor ac. Nulla ut velit vitae nulla imperdiet dignissim.
+
+Vestibulum eros sem, euismod nec diam ac, volutpat auctor nisi. Nunc tincidunt semper lacus, in tincidunt nisi dignissim sit amet. Morbi dapibus finibus risus, non ornare turpis egestas ut. Cras pharetra ligula a nulla ultricies, sollicitudin viverra ante finibus. Ut vel massa erat. Aenean elit sapien, pellentesque a metus at, viverra dictum metus. Etiam pellentesque mattis libero, non euismod quam congue vitae. Phasellus quis tellus a eros tincidunt pretium. Curabitur nulla nunc, vehicula sit amet quam at, pretium bibendum augue. Phasellus est risus, fringilla sed dui vel, elementum tempor leo. Proin a tellus gravida diam faucibus fermentum. Nunc a orci nulla. Vivamus lobortis viverra feugiat.
+
+Sed leo nisi, maximus ac interdum vitae, viverra vel sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut ligula nunc, vestibulum in dignissim id, efficitur id velit. Ut elementum vel mauris non feugiat. Vestibulum tincidunt ligula eget orci aliquam auctor. Curabitur sit amet purus facilisis, sodales lectus eu, molestie felis. Nullam commodo dui eget blandit malesuada. Maecenas venenatis maximus risus, eget bibendum orci bibendum vel. Mauris et fringilla eros. Vestibulum lacinia interdum vestibulum. Vestibulum gravida nisl in urna gravida, eu pellentesque orci scelerisque.
+
+Suspendisse potenti. Praesent in pharetra nisi. Integer ullamcorper, justo eget placerat consectetur, ante purus varius lacus, sit amet eleifend risus ipsum non dui. Praesent venenatis volutpat turpis, quis hendrerit sem accumsan et. Nullam ullamcorper pulvinar pretium. Quisque eget lectus massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque quis mauris vehicula, egestas purus at, pellentesque massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
