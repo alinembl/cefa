@@ -16,13 +16,13 @@ permalink: /
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="{{ site.baseurl }}/img/palestras/palestra-01.png" alt="First slide">
+                <img class="d-block w-100" src="{{ '/img/palestras/palestra-01.png' | relative_url }}" alt="First slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="{{ site.baseurl }}/img/palestras/palestra-02.png" alt="Second slide">
+                <img class="d-block w-100" src="{{ '/img/palestras/palestra-02.png' | relative_url }}" alt="Second slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="{{ site.baseurl }}/img/palestras/palestra-03.png" alt="Third slide">
+                <img class="d-block w-100" src="{{ '/img/palestras/palestra-03.png' | relative_url }}" alt="Third slide">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -44,11 +44,11 @@ permalink: /
             <p class="bold post-title">{{ post.title }}</p>
             <p class="post-date">{{ post.date | date: "%d de %b de %Y" }}</p>
             <p>
-            <img class="post-thumbnail"src="{{post.image | prepend: site.baseurl}}" alt="thumbnail"></p>
+            <img class="post-thumbnail"src="{{ post.image | relative_url }}" alt="thumbnail"></p>
             <p class="post-subtitle">
               {{ post.subtitle | truncatewords: 10, " ..."}}
             </p>
-            <a href="{{ post.url | prepend: site.baseurl }}"><button class="button" style="vertical-align:middle"><span>Veja mais</span></button></a>
+            <a href="{{ post.url | relative_url }}"><button class="button" style="vertical-align:middle"><span>Veja mais</span></button></a>
           </div>
           {% endif %}
           {% endfor %}
