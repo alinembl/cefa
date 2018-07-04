@@ -4,25 +4,22 @@
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-<meta property="og:title" content="{{page.title}}">
-<meta property="og:description" content="{{page.subtitle}}">
-<meta property="og:image" itemprop="image" content="{{page.image | prepend: site.baseurl }}">
-<meta property="og:url" content="{{ post.url | prepend: site.baseurl }}">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.subtitle }}">
+<meta property="og:image" itemprop="image" content="{{page.image | relative_url }}">
+<meta property="og:url" content="{{ post.url | relative_url }}">
 
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
 <!-- CSS -->
 
-<link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css" />
-<link rel="stylesheet" href="{{ site.baseurl }}/css/font-awesome.min.css" />
-<link rel="stylesheet" href="{{ site.baseurl }}/css/ionicons.min.css" />
-<link rel="stylesheet" href="{{ site.baseurl }}/css/cefa.css" />
-<link rel="stylesheet" href="{{ site.baseurl }}/css/responsive.css" />
-
-
+<link rel="stylesheet" href="{{ '/css/bootstrap.min.css' | relative_url }}" />
+<link rel="stylesheet" href="{{ '/css/font-awesome.min.css' | relative_url }}" />
+<link rel="stylesheet" href="{{ '/css/ionicons.min.css' | relative_url }}" />
+<link rel="stylesheet" href="{{ '/css/cefa.css' | relative_url }}" />
+<link rel="stylesheet" href="{{ '/css/responsive.css' | relative_url }}" />
 
 <!-- Js -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-<script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+<script src="{{ '/js/bootstrap.min.js' | relative_url }}"></script>
