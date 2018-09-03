@@ -3,7 +3,7 @@ layout: page
 title: CEFA
 permalink: /
 ---
-<section class="linha">
+<section class="primary_content">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
@@ -37,40 +37,54 @@ permalink: /
         </div>
       </div><!-- .col-md-7 close -->
       <div class="col-md-6">
-        <div class="block">
-          {% for post in site.posts%}
-          {% if forloop.index0 < 2 %}
-          <div class="post-area col-md-6">
-            <p class="bold post-title">{{ post.title }}</p>
-            <p class="post-date">{{ post.date | date: "%d de %b de %Y" }}</p>
-            <p>
-            <img class="post-thumbnail"src="{{ post.image | relative_url }}" alt="thumbnail"></p>
-            <p class="post-subtitle">
-              {{ post.subtitle | truncatewords: 10, " ..."}}
-            </p>
-            <a href="{{ post.url | relative_url }}"><button class="button" style="vertical-align:middle"><span>Veja mais</span></button></a>
+        <div class="container">
+          <div class="row">
+            {% for post in site.posts%}
+            {% if forloop.index0 < 2 %}
+            <div class="card col-md-6">
+              <img class="card-img-top" src="{{ post.image | relative_url }}" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">{{ post.title }}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%d de %b de %Y" }}</h6>
+                <p class="card-text">{{post.subtitle}}</p>
+                <a href="{{ post.url }}" class="btn btn-secondary btn-sm">Veja mais</a>
+              </div>
+            </div>
+            {% endif %}
+            {% endfor %}
           </div>
-          {% endif %}
-          {% endfor %}
         </div>
-      </div><!-- .col-md-5 close -->
+      </div><!-- .col-md-6 close -->
     </div>
   </div>
 </section>
 
-<section>
+<section class="secondary_content">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <div class="block">
-            <p>botoes-doação</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="imageTag" src="{{ '/img/tags/1.png' | relative_url }}" alt="seja voluntário">
+            </div>
+            <div class="col-md-6">
+              <img class="imageTag" src="{{ '/img/tags/2.png' | relative_url }}" alt="doações">
+            </div>
+          </div>
+          <div class="row secondRow">
+            <div class="col-md-6">
+              <img class="imageTag" src="{{ '/img/tags/3.png' | relative_url }}" alt="boletins">
+            </div>
+            <div class="col-md-6">
+              <img class="imageTag" src="{{ '/img/tags/4.png' | relative_url }}" alt="downloads">
+            </div>
+          </div>
         </div>
-      </div><!-- .col-md-7 close -->
+      </div>
       <div class="col-md-6">
-        <div class="block">
-          <p>hora da prece</p>
-        </div>
-      </div><!-- .col-md-5 close -->
+        <img class="imageTag" src="{{ '/img/tags/5.png' | relative_url }}" alt="hora da prece">
+      </div>
     </div>
   </div>
 </section>

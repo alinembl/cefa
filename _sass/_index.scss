@@ -1,0 +1,30 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+h1,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+}
+p {
+  font-size: 15px;
+  line-height: 28px;
+}
+ul {
+  color: #734743;
+  list-style: none;
+  margin: 0 0 0 20px;
+  padding: 0;
+}
