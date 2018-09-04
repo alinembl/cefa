@@ -1,6 +1,6 @@
 ---
 title: CEFA
-timezone: UTC
+timezone: America/Sao_Paulo
 collections:
   posts:
     title: Posts
@@ -9,10 +9,10 @@ collections:
     title: Uploads
     output: true
 email: your-email@example.com
-description: Site do Centro Espírita francisco de assis
+description: Site do Centro Espírita Francisco de Assis
 baseurl: "/"
-twitter_username: jekyllrb
-github_username: jekyll
+twitter_username: 
+github_username: 
 markdown: kramdown
 theme: minima
 plugins:
