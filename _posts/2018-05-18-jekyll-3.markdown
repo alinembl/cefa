@@ -1,11 +1,11 @@
 ---
+title: Notícia número dois
+date: 2018-05-18 23:28:14 Z
 layout: post
-title:  Notícia número dois
-date:   2018-05-18 20:28:14 -0300
-image: /img/noticias/noticia-01.png
+image: "/img/noticias/noticia-01.png"
 subtitle: texto para subtítulo da matéria será truncado com 10 palavras, viu?
-
 ---
+
 ![]({{ site.baseurl }}/img/noticias/noticia-01.png)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nibh, suscipit vel volutpat eget, elementum id turpis. In sit amet neque ut massa gravida viverra. Nunc vestibulum luctus eros, vel lacinia dolor mollis a. Cras at vulputate justo, eget laoreet neque. Sed aliquam, ex vel venenatis venenatis, metus nulla imperdiet risus, faucibus volutpat quam sapien sed purus. Curabitur vel facilisis mauris. Duis faucibus erat odio, quis porta lorem mollis et.
