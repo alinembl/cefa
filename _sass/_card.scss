@@ -1,0 +1,13 @@
+.card {
+  padding-top: 10px;
+  border: none;
+  &-body{
+    padding: 5px;
+  }
+  &-subtitle{
+    font-size: 12px;
+  }
+  &-text{
+    font-size: 14px;
+  }
+}
