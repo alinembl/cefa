@@ -2,13 +2,15 @@
   margin: 50px 0 50px 0;
 }
 .secondary_content {
-  padding-left: 20px;
-  .imageTag {
-    display: block;
-    margin-left: auto;
+  .image {
+    display:  block;
     margin-right: auto;
+    margin-left:  auto;
+    &.-tags{
+      padding:30px 0 30px 0;
+    }
+
+
   }
-  .secondRow{
-    padding-top: 50px;
-  }
+
 }

@@ -11,8 +11,6 @@ collections:
 email: your-email@example.com
 description: Site do Centro Espírita Francisco de Assis
 baseurl: "/"
-twitter_username: 
-github_username: 
 markdown: kramdown
 theme: minima
 plugins:
