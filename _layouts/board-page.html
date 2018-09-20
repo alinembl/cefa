@@ -2,21 +2,34 @@
 layout: page
 ---
 
-<div class="row">
-  <div class="col-4">
-    <div class="list-group" id="list-tab" role="tablist">
-      <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
-      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
-      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
-      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
-    </div>
-  </div>
-  <div class="col-8">
-    <div class="tab-content" id="nav-tabContent">
-      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">...</div>
-      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
-      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
-      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+
+
+
+<div class="container">
+  <div class="col">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="list-group" id="list-tab" role="tablist">
+          <a class="list-group-item list-group-item-action active" id="list-item-1" data-toggle="list" href="#list-1" role="tab" aria-controls="1">{{ page.listItem1 }}</a>
+          <a class="list-group-item list-group-item-action" id="list-item-2" data-toggle="list" href="#list-2" role="tab" aria-controls="2">{{ page.listItem2 }}</a>
+          <a class="list-group-item list-group-item-action" id="list-item-3" data-toggle="list" href="#list-3" role="tab" aria-controls="3">{{ page.listItem3 }}</a>
+          <a class="list-group-item list-group-item-action" id="list-item-4" data-toggle="list" href="#list-4" role="tab" aria-controls="4">{{ page.listItem4 }}</a>
+          <a class="list-group-item list-group-item-action" id="list-item-5" data-toggle="list" href="#list-5" role="tab" aria-controls="5">{{ page.listItem5 }}</a>
+          <a class="list-group-item list-group-item-action" id="list-item-6" data-toggle="list" href="#list-6" role="tab" aria-controls="6">{{ page.listItem6 }}</a>
+          <a class="list-group-item list-group-item-action" id="list-item-7" data-toggle="list" href="#list-7" role="tab" aria-controls="7">{{ page.listItem7 }}</a>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="list-1" role="tabpanel" aria-labelledby="list-item-1">{{ page.description1 }}</div>
+          <div class="tab-pane fade" id="list-2" role="tabpanel" aria-labelledby="list-item-2">{{ page.description2 }}</div>
+          <div class="tab-pane fade" id="list-3" role="tabpanel" aria-labelledby="list-item-3">{{ page.description3 }}</div>
+          <div class="tab-pane fade" id="list-4" role="tabpanel" aria-labelledby="list-item-4">{{ page.description4 }}</div>
+          <div class="tab-pane fade" id="list-5" role="tabpanel" aria-labelledby="list-item-5">{{ page.description5 }}</div>
+          <div class="tab-pane fade" id="list-6" role="tabpanel" aria-labelledby="list-item-6">{{ page.description6 }}</div>
+          <div class="tab-pane fade" id="list-7" role="tabpanel" aria-labelledby="list-item-7">{{ page.description7 }}</div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
