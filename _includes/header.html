@@ -12,21 +12,11 @@
                 <li class="nav-item">
                   <a class="nav-link" href="{{ '/' | relative_url }}">Início</a>
                 </li>
+                {% for page in site.pages%}
                 <li class="nav-item">
-                  <a class="nav-link" href="{{'/o-espiritismo.html' | relative_url }}">O Espiritismo</a>
+                  <a class="nav-link" href="{{ page.url | relative_url }}"> {{ page.title }}</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">O Cefa</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Atividades da Casa</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Horários</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Fale Conosco</a>
-                </li>
+                {% endfor %}
               </ul>
             </div>
           </nav>
