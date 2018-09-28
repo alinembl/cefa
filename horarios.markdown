@@ -3,8 +3,7 @@ title: Horários
 date: 2018-09-04 18:26:00 -03:00
 position: 3
 listItem1: Domingo
-description1: "* 08:00 - Idosos (2º e 4º domingos) * 15:30 - SOS Mediúnico * 17:00
-  - Mediúnicas * 17:30 - Orientação Fraterna  *18:00 - Hora da prece "
+description1: 08:00 - Idosos (2º e 4º domingos) <br/> 15:30 - SOS Mediúnico <br/> 17:00 - Mediúnicas <br/> 17:30 - Orientação Fraterna  <br/> 18:00 - Hora da prece  
 listItem2: Segunda-Feira
 description2: 18:00 - Orientação Fraterna <br/> 19:00 - Passe <br/> 19:30 - Estudos
   Doutrina (ESDE e EADE) <br/>
@@ -29,3 +28,4 @@ description7: 15:00 - Evangelização Infanto - Juvenil <br/> 17:15 - Passe <br/
 layout: board-page
 ---
 
+Orientações a respeito da pagina

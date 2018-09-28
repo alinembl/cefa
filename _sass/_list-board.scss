@@ -1,0 +1,20 @@
+.list-board {
+  .list-group{
+     &-item {
+       &.active{
+         background-color: #714745;
+         border-color: #714745;
+       }
+     }
+  }
+  .list-description{
+    border: 3px solid #714745;
+    border-radius: 10px;
+    .tab-content{
+      > .active{
+        padding: 40px;
+      }
+    }
+  }
+
+}

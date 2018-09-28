@@ -4,6 +4,11 @@ layout: default
 
 <section class="list-board">
   <div class="container">
+    <div class="col-12">
+      <h2 class="title">{{ page.title }}</h2>
+      <p>{{ page.content }}</p>
+    </div>
+  <div class="container">
     <div class="col">
       <div class="row">
         <div class="col-md-4">
@@ -17,7 +22,7 @@ layout: default
             <a class="list-group-item list-group-item-action" id="list-item-7" data-toggle="list" href="#list-7" role="tab" aria-controls="7">{{ page.listItem7 }}</a>
           </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 list-description">
           <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="list-1" role="tabpanel" aria-labelledby="list-item-1">{{ page.description1 }}</div>
             <div class="tab-pane fade" id="list-2" role="tabpanel" aria-labelledby="list-item-2">{{ page.description2 }}</div>
