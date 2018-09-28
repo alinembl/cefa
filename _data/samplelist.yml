@@ -1,0 +1,17 @@
+docs_list_title: ACME Documentation
+docs:
+
+- title: O espiritismo
+  url: o-espiritismo.html
+
+- title: O CEFA
+  url: o-cefa.html
+
+- title: Horários
+  url: horarios.html
+
+- title: Atividades da Casa
+  url: atividades-da-casa.html
+
+- title: Fale Conosco
+  url: fale-conosco.html
