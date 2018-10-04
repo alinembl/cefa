@@ -34,6 +34,6 @@ O Centro Espírita Francisco de Assis possui atividades durante toda a semana.
 
 **Atenção aos períodos de recesso!**
 
-* Atividade com idosos - recesso em **Janeiro** e em **Julho**
+Atividade com idosos - recesso em **Janeiro** e em **Julho**
 
-* Orientação Fraterna, Passes às segundas-feiras, Passes aos sábados e Evangelização Infanto-Juvenil - recesso em **Janeiro**,**Julho** e **Dezembro**
+Orientação Fraterna, Passes às segundas-feiras, Passes aos sábados e Evangelização Infanto-Juvenil - recesso em **Janeiro**,**Julho** e **Dezembro**
